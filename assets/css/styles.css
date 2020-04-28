@@ -1,0 +1,27 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, serif;
+	font-size: 14px;
+	line-height: 150%;
+	background: #eee;
+	position: relative;
+	height: 100%;
+}
+.headerContainer,
+.bodyContainer,
+.footerContainer {
+	max-width: 960px;
+	margin: 0 auto;
+	background: #FFF;
+}
+.padding {
+	padding: 20px;
+}
+.bodyContainer {
+	min-height: 500px;
+}
+a:hover.back-to-top {
+	background-color: #000;
+}
